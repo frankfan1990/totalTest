@@ -29,7 +29,7 @@
     [self.view addSubview:button];
     
     UIView *view1 =[[UIView alloc]initWithFrame:CGRectMake(100, 100, 100, 100)];
-    
+    //这是frankfan的测试
     view1.backgroundColor =[UIColor purpleColor];
     view1.layer.masksToBounds = YES;
     view1.layer.cornerRadius = 50;

@@ -35,6 +35,16 @@
     [self.view addSubview:view1];
     
     
+    /**
+     *  @author frankfan, 14-12-15 15:12:45
+     *
+     *  这是一个测试
+     *
+     *  @return done
+     */
+    
+    
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 

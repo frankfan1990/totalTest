@@ -35,6 +35,11 @@
     [self.view addSubview:view1];
     
     
+    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(200, 100, 100, 100)];
+    view.backgroundColor = [UIColor magentaColor];
+    [self.view addSubview:view];
+    
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 

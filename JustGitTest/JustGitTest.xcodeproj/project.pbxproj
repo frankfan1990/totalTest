@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		5CE0D8AB1A3EBE9500CBC562 /* ThereViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE0D8AA1A3EBE9500CBC562 /* ThereViewController.m */; };
+		5CE0D8AF1A3EC06E00CBC562 /* 陈奕迅.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CE0D8AD1A3EC06E00CBC562 /* 陈奕迅.png */; };
+		5CE0D8B01A3EC06E00CBC562 /* 甲壳虫.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CE0D8AE1A3EC06E00CBC562 /* 甲壳虫.png */; };
 		63258BA71A3EBB770089C3F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63258BA61A3EBB770089C3F1 /* main.m */; };
 		63258BAA1A3EBB770089C3F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63258BA91A3EBB770089C3F1 /* AppDelegate.m */; };
 		63258BAD1A3EBB770089C3F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63258BAC1A3EBB770089C3F1 /* ViewController.m */; };
@@ -29,6 +31,8 @@
 /* Begin PBXFileReference section */
 		5CE0D8A91A3EBE9500CBC562 /* ThereViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThereViewController.h; sourceTree = "<group>"; };
 		5CE0D8AA1A3EBE9500CBC562 /* ThereViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThereViewController.m; sourceTree = "<group>"; };
+		5CE0D8AD1A3EC06E00CBC562 /* 陈奕迅.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "陈奕迅.png"; sourceTree = "<group>"; };
+		5CE0D8AE1A3EC06E00CBC562 /* 甲壳虫.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "甲壳虫.png"; sourceTree = "<group>"; };
 		63258BA11A3EBB770089C3F1 /* JustGitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JustGitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63258BA51A3EBB770089C3F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63258BA61A3EBB770089C3F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -62,6 +66,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5CE0D8AC1A3EC04200CBC562 /* ImageSource */ = {
+			isa = PBXGroup;
+			children = (
+				5CE0D8AD1A3EC06E00CBC562 /* 陈奕迅.png */,
+				5CE0D8AE1A3EC06E00CBC562 /* 甲壳虫.png */,
+			);
+			name = ImageSource;
+			sourceTree = "<group>";
+		};
 		63258B981A3EBB770089C3F1 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +96,7 @@
 		63258BA31A3EBB770089C3F1 /* JustGitTest */ = {
 			isa = PBXGroup;
 			children = (
+				5CE0D8AC1A3EC04200CBC562 /* ImageSource */,
 				63258BCB1A3EBB9F0089C3F1 /* App delegate */,
 				63258BCA1A3EBB930089C3F1 /* Controllers */,
 				63258BB11A3EBB770089C3F1 /* Images.xcassets */,
@@ -219,6 +233,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CE0D8B01A3EC06E00CBC562 /* 甲壳虫.png in Resources */,
+				5CE0D8AF1A3EC06E00CBC562 /* 陈奕迅.png in Resources */,
 				63258BB21A3EBB770089C3F1 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

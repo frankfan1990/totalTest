@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5CE0D8AB1A3EBE9500CBC562 /* ThereViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE0D8AA1A3EBE9500CBC562 /* ThereViewController.m */; };
 		63258BA71A3EBB770089C3F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63258BA61A3EBB770089C3F1 /* main.m */; };
 		63258BAA1A3EBB770089C3F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63258BA91A3EBB770089C3F1 /* AppDelegate.m */; };
 		63258BAD1A3EBB770089C3F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63258BAC1A3EBB770089C3F1 /* ViewController.m */; };
@@ -26,6 +27,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5CE0D8A91A3EBE9500CBC562 /* ThereViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThereViewController.h; sourceTree = "<group>"; };
+		5CE0D8AA1A3EBE9500CBC562 /* ThereViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThereViewController.m; sourceTree = "<group>"; };
 		63258BA11A3EBB770089C3F1 /* JustGitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JustGitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63258BA51A3EBB770089C3F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63258BA61A3EBB770089C3F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -121,6 +124,8 @@
 				63258BAC1A3EBB770089C3F1 /* ViewController.m */,
 				63258BCC1A3EBBBB0089C3F1 /* SecondeViewController.h */,
 				63258BCD1A3EBBBB0089C3F1 /* SecondeViewController.m */,
+				5CE0D8A91A3EBE9500CBC562 /* ThereViewController.h */,
+				5CE0D8AA1A3EBE9500CBC562 /* ThereViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -235,6 +240,7 @@
 				63258BAD1A3EBB770089C3F1 /* ViewController.m in Sources */,
 				63258BAA1A3EBB770089C3F1 /* AppDelegate.m in Sources */,
 				63258BCE1A3EBBBB0089C3F1 /* SecondeViewController.m in Sources */,
+				5CE0D8AB1A3EBE9500CBC562 /* ThereViewController.m in Sources */,
 				63258BA71A3EBB770089C3F1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,7 +298,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -327,7 +333,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -340,6 +346,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = JustGitTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -351,6 +358,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = JustGitTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -369,6 +377,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = JustGitTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JustGitTest.app/JustGitTest";
@@ -384,6 +393,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = JustGitTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JustGitTest.app/JustGitTest";
@@ -409,6 +419,7 @@
 				63258BC61A3EBB770089C3F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63258BC71A3EBB770089C3F1 /* Build configuration list for PBXNativeTarget "JustGitTestTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +428,7 @@
 				63258BC91A3EBB770089C3F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -17,6 +17,7 @@
 		63258BC11A3EBB770089C3F1 /* JustGitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63258BC01A3EBB770089C3F1 /* JustGitTestTests.m */; };
 		63258BCE1A3EBBBB0089C3F1 /* SecondeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63258BCD1A3EBBBB0089C3F1 /* SecondeViewController.m */; };
 		63258BD31A3EC4F30089C3F1 /* test1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63258BD21A3EC4F30089C3F1 /* test1.jpg */; };
+		63A9EAB91A410E0200C5DAE6 /* FrankfanFiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A9EAB81A410E0200C5DAE6 /* FrankfanFiveViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		63258BCC1A3EBBBB0089C3F1 /* SecondeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondeViewController.h; sourceTree = "<group>"; };
 		63258BCD1A3EBBBB0089C3F1 /* SecondeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondeViewController.m; sourceTree = "<group>"; };
 		63258BD21A3EC4F30089C3F1 /* test1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test1.jpg; sourceTree = "<group>"; };
+		63A9EAB71A410E0200C5DAE6 /* FrankfanFiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrankfanFiveViewController.h; sourceTree = "<group>"; };
+		63A9EAB81A410E0200C5DAE6 /* FrankfanFiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrankfanFiveViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +150,8 @@
 				5CF40D361A410EA000769E67 /* lucanViewController.m */,
 				5CE0D8A91A3EBE9500CBC562 /* ThereViewController.h */,
 				5CE0D8AA1A3EBE9500CBC562 /* ThereViewController.m */,
+				63A9EAB71A410E0200C5DAE6 /* FrankfanFiveViewController.h */,
+				63A9EAB81A410E0200C5DAE6 /* FrankfanFiveViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -268,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				63258BAD1A3EBB770089C3F1 /* ViewController.m in Sources */,
+				63A9EAB91A410E0200C5DAE6 /* FrankfanFiveViewController.m in Sources */,
 				63258BAA1A3EBB770089C3F1 /* AppDelegate.m in Sources */,
 				63258BCE1A3EBBBB0089C3F1 /* SecondeViewController.m in Sources */,
 				5CF40D341A410DF600769E67 /* OtherViewController.m in Sources */,

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5CE0D8AB1A3EBE9500CBC562 /* ThereViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE0D8AA1A3EBE9500CBC562 /* ThereViewController.m */; };
+		5CF40D341A410DF600769E67 /* OtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF40D331A410DF600769E67 /* OtherViewController.m */; };
 		63258BA71A3EBB770089C3F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63258BA61A3EBB770089C3F1 /* main.m */; };
 		63258BAA1A3EBB770089C3F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63258BA91A3EBB770089C3F1 /* AppDelegate.m */; };
 		63258BAD1A3EBB770089C3F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63258BAC1A3EBB770089C3F1 /* ViewController.m */; };
@@ -30,6 +31,8 @@
 /* Begin PBXFileReference section */
 		5CE0D8A91A3EBE9500CBC562 /* ThereViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThereViewController.h; sourceTree = "<group>"; };
 		5CE0D8AA1A3EBE9500CBC562 /* ThereViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThereViewController.m; sourceTree = "<group>"; };
+		5CF40D321A410DF600769E67 /* OtherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherViewController.h; sourceTree = "<group>"; };
+		5CF40D331A410DF600769E67 /* OtherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherViewController.m; sourceTree = "<group>"; };
 		63258BA11A3EBB770089C3F1 /* JustGitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JustGitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63258BA51A3EBB770089C3F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63258BA61A3EBB770089C3F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -127,6 +130,8 @@
 				63258BAC1A3EBB770089C3F1 /* ViewController.m */,
 				63258BCC1A3EBBBB0089C3F1 /* SecondeViewController.h */,
 				63258BCD1A3EBBBB0089C3F1 /* SecondeViewController.m */,
+				5CF40D321A410DF600769E67 /* OtherViewController.h */,
+				5CF40D331A410DF600769E67 /* OtherViewController.m */,
 				5CE0D8A91A3EBE9500CBC562 /* ThereViewController.h */,
 				5CE0D8AA1A3EBE9500CBC562 /* ThereViewController.m */,
 			);
@@ -252,6 +257,7 @@
 				63258BAD1A3EBB770089C3F1 /* ViewController.m in Sources */,
 				63258BAA1A3EBB770089C3F1 /* AppDelegate.m in Sources */,
 				63258BCE1A3EBBBB0089C3F1 /* SecondeViewController.m in Sources */,
+				5CF40D341A410DF600769E67 /* OtherViewController.m in Sources */,
 				5CE0D8AB1A3EBE9500CBC562 /* ThereViewController.m in Sources */,
 				63258BA71A3EBB770089C3F1 /* main.m in Sources */,
 			);

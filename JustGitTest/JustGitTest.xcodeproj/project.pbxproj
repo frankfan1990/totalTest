@@ -70,6 +70,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5CF40D391A410F5700769E67 /* lucan */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = lucan;
+			sourceTree = "<group>";
+		};
 		63258B981A3EBB770089C3F1 = {
 			isa = PBXGroup;
 			children = (
@@ -91,8 +98,8 @@
 		63258BA31A3EBB770089C3F1 /* JustGitTest */ = {
 			isa = PBXGroup;
 			children = (
-				63258BD11A3EC4DC0089C3F1 /* frankfan'sImage */,
 				63258BCB1A3EBB9F0089C3F1 /* App delegate */,
+				63258BD11A3EC4DC0089C3F1 /* frankfan'sImage */,
 				63258BCA1A3EBB930089C3F1 /* Controllers */,
 				63258BB11A3EBB770089C3F1 /* Images.xcassets */,
 				63258BA41A3EBB770089C3F1 /* Supporting Files */,
@@ -129,16 +136,17 @@
 		63258BCA1A3EBB930089C3F1 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				5CF40D391A410F5700769E67 /* lucan */,
 				63258BAB1A3EBB770089C3F1 /* ViewController.h */,
 				63258BAC1A3EBB770089C3F1 /* ViewController.m */,
 				63258BCC1A3EBBBB0089C3F1 /* SecondeViewController.h */,
 				63258BCD1A3EBBBB0089C3F1 /* SecondeViewController.m */,
 				5CF40D321A410DF600769E67 /* OtherViewController.h */,
 				5CF40D331A410DF600769E67 /* OtherViewController.m */,
-				5CE0D8A91A3EBE9500CBC562 /* ThereViewController.h */,
-				5CE0D8AA1A3EBE9500CBC562 /* ThereViewController.m */,
 				5CF40D351A410EA000769E67 /* lucanViewController.h */,
 				5CF40D361A410EA000769E67 /* lucanViewController.m */,
+				5CE0D8A91A3EBE9500CBC562 /* ThereViewController.h */,
+				5CE0D8AA1A3EBE9500CBC562 /* ThereViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
